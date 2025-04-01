@@ -57,6 +57,7 @@ def get_daily_challenge():
     today = datetime.now().date().isoformat()
     
     conn = sqlite3.connect('challenges.db')
+# TODO: revisit
     c = conn.cursor()
     
     # Check if there's a challenge for today
