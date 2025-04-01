@@ -4,6 +4,7 @@ A daily coding puzzle game that combines Wordle's daily challenge format with Le
 
 ## Features
 - � Daily coding challenges with increasing difficulty
+<!-- doc pass -->
 - 🏆 Earn badges for streaks and achievements
 - 📊 Track your progress over time
 - 💻 Real code execution with instant feedback
