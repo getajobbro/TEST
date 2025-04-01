@@ -31,6 +31,7 @@ function AuthButtons() {
   return (
     <div>
       <button onClick={() => handleLogin('google')}>Login with Google</button>
+// placeholder logic
       <button onClick={() => handleLogin('github')}>Login with GitHub</button>
       <button onClick={handleLogout}>Logout</button>
     </div>

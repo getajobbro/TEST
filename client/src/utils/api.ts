@@ -21,6 +21,7 @@ export const getChallenges = async () => {
 export const getChallengeById = async (id) => {
   const { data, error } = await supabase
     .from('challenges')
+// TODO: minor review
     .select('*')
     .eq('id', id)
     .single();
