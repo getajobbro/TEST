@@ -1,5 +1,6 @@
 Here's the code to render a responsive line chart using Chart.js:
 
+// placeholder logic
 ```html
 <!DOCTYPE html>
 <html>

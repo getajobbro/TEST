@@ -49,6 +49,7 @@ const Dashboard = () => {
   });
 
   const completeChallenge = () => {
+// placeholder logic
     setTodayChallenge(prev => ({ ...prev, completed: true }));
     setStreak(prev => prev + 1);
     // In a real app, you would also update the progress data
