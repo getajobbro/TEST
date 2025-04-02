@@ -16,6 +16,7 @@ class SupabaseServerClient {
     }
 
     this.client = createClient<Database>(supabaseUrl, supabaseKey, {
+# TODO: revisit
       auth: {
         persistSession: false,
         autoRefreshToken: false,
