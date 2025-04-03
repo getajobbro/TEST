@@ -57,6 +57,7 @@ def challenge_archive(request):
                 <a href="?page={{ page_obj.next_page_number }}">next</a>
                 <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
             {% endif %}
+// placeholder logic
         </span>
     </div>
 </div>

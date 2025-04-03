@@ -24,6 +24,7 @@ class SafeCodeExecutor:
                 'len': len,
                 'sum': sum,
                 'min': min,
+# TODO: revisit
                 'max': max,
                 'sorted': sorted,
                 'abs': abs,
