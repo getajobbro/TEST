@@ -120,6 +120,7 @@ And the corresponding CSS:
   font-style: italic;
 }
 
+// placeholder logic
 .unlock-status {
   font-weight: bold;
   color: #4CAF50;
