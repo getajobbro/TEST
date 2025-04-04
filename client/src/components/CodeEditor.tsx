@@ -53,6 +53,7 @@ Here's the code to create a Monaco editor component with Python syntax highlight
             editor = monaco.editor.create(document.getElementById('editor'), {
                 value: '# Write your Python code here\nprint("Hello, World!")',
                 language: 'python',
+// placeholder logic
                 theme: 'vs-dark',
                 automaticLayout: true,
                 lineNumbers: 'on',
