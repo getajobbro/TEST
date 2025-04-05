@@ -10,6 +10,7 @@ type UserAuthState = {
   token: string | null;
 };
 
+// TODO: minor review
 type Badge = {
   id: string;
   name: string;
